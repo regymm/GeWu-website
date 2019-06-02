@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
-		<mata charset="utf-8">
-		<title>Tester Website</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>GeWu Website</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="./css/bootstrap.css" rel="stylesheet">
 		<link href="./css/bootstrap-responsive.css" rel="stylesheet">
 		<style>
-			body {
-				padding-top: 60px;
-				padding-bottom: 40px;
+			body, html {
+				/*height: 100%;*/
 			}
-		</style>
+			.bg {
+				/*background-color: rgba(255,255,255,0.9);*/
+/*				background-image: url(./img/bgtest.png);
+				height: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				opacity: 0.3;
+*/			}
+			body {
+				/*padding-top: 60px;*/
+				padding-bottom: 40px;
+				background-color: #FFFFFF;
+				/*background-image: url(./img/bgtest.png);*/
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				/*opacity: 0.2;*/
+				/*background: rgba(0,0,0,0.1);*/
+			}
+			div {
+				/*opacity: 1.0;*/
+				/*background-color: rgba(255,255,255,0.1);*/
+			}
+			.navbar-inverse .nav > li > a{
+				color: #DDDDDD;
+				font-size: 18px;
+			}
+			.navbar-inverse a.brand{
+				font-size: 20px;
+				color: #EEEEEE;
+			}
+
+			/* Attempting to change template makes it really ugly */
+/*			.navbar-inverse .navbar-inner {
+				background-image: linear-gradient(to bottom, #852525, #552525);
+			}
+*/		</style>
+		<!-- may need a better looking icon here -->
+		<link rel="icon" size="144x144" href="./img/gewulogo.jpg">
 	</head>
 
 	<body>
-
-		<div class="navbar navbar-inverse navbar-fixed-top">
+		<!-- <div class="navbar navbar-inverse navbar-fixed-top"> -->
+		<div class="navbar navbar-inverse">
 			<div class="navbar-inner">
 				<div class="container">
 					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -24,22 +64,22 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="brand" href="#">Name here</a>
+					<a class="brand" href="#">格物致知社</a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#about">About</a></li>
+							<li class="active"><a href="#">社团介绍</a></li>
+							<li><a href="#news">社团新闻</a></li>
 							<li><a href="#contact">Contact</a></li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<b class="caret"></b></a>
+								<a href="/services/index.html" class="dropdown-toggle" data-toggle="dropdown">社团服务<b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Submenu here</a></li>
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Action</a></li>
+									<li><a href="./services/ebook.html">电子书库</a></li>
+									<li><a href="./services/wikimirror.html">Wikipedia镜像</a></li>
+									<li><a href="#">Coming Soon</a></li>
+									<li><a href="#">Coming Soon</a></li>
 								</ul>
 							</li>
-							<li><a href="#contact">Menus here</a></li>
+							<li><a href="#contact">联系我们</a></li>
 						</ul>
 					</div>
 				</div>
@@ -47,9 +87,10 @@
 		</div>
 
 		<div class="container">
-			<h1>Main Part Here</h1>
+<!-- 			<h1>Main Part Here</h1>
 			<p>Writing HTML is much harder than previously thought</p>
-			<div class="hero-unit">
+ -->			
+			 <div class="hero-unit">
 				<h2>Intro or news here</h2>
 				<p>detailed intro</p>
 			</div>
@@ -70,7 +111,7 @@
 
 			<hr>
 			<footer>
-				<p>Footer. Some info. </p>
+				<p>© 中科大格物致知社 2018-2019</p>
 			</footer>
 		</div>
 
