@@ -1,0 +1,45 @@
+/*
+GeWu CSS
+*/
+body, html {
+    /*height: 100%;*/
+}
+.bg {
+    /*background-color: rgba(255,255,255,0.9);*/
+/*				background-image: url(./img/bgtest.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.3;
+*/			}
+body {
+    /*padding-top: 60px;*/
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+    /*background-image: url(./img/bgtest.png);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*opacity: 0.2;*/
+    /*background: rgba(0,0,0,0.1);*/
+}
+div {
+    /*opacity: 1.0;*/
+    /*background-color: rgba(255,255,255,0.1);*/
+}
+.navbar-inverse .nav > li > a{
+    color: #DDDDDD;
+    font-size: 18px;
+}
+.navbar-inverse a.brand{
+    font-size: 20px;
+    color: #EEEEEE;
+}
+/* Attempting to change template makes it really ugly */
+/*			.navbar-inverse .navbar-inner {
+				background-image: linear-gradient(to bottom, #852525, #552525);
+			}
+*/
